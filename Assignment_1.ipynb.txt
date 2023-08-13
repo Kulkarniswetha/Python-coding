@@ -1,0 +1,392 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "# 1. Write a python program to convert a string to lower case\n",
+        "X=\"SWETHAKULKARNI\"\n",
+        "X.lower()"
+      ],
+      "metadata": {
+        "id": "fEMJpdd6M8mM",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "outputId": "d9fa8ab5-fc5d-4f7c-8f5e-3143192f197b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'swethakulkarni'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 45
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SPMGSuEWPEk6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 2.write a python program to convert only odd indexed characters to lower case\n",
+        "X=\"JAIPUR\"\n",
+        "X[0]+X[1].lower()+X[2]+X[3].lower()+X[4]+X[5].lower()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "B20zfvsf87o2",
+        "outputId": "9bb16598-fdce-4e3e-a00d-eaf2eb4b63d8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'JaIpUr'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "id": "W83TV2z1OHC0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3.Write a python program to convert only even indexed characters to lower case\n",
+        "Y=\"PYTHON\"\n",
+        "Y[0]+Y[1].lower()+Y[2]+Y[3].lower()+Y[4]+Y[5].lower()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "0LoToQrJ-60p",
+        "outputId": "e450c9f2-e057-404c-e91a-7f66cc5c8079"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'PyThOn'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# New section"
+      ],
+      "metadata": {
+        "id": "ievpdzuYOm57"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4.Write a python program to convert only odd indexed characters to upper case\n",
+        "X=\"swetha\"\n",
+        "X[0]+X[1].upper()+X[2]+X[3].upper()+X[4]+X[5].upper()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "9LaQBs77_sST",
+        "outputId": "0758a4df-e0ed-45b2-a8b7-338528f5da13"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'sWeThA'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5.Write a python program to convert only even characters to upper case\n",
+        "X=\"india\"\n",
+        "X[0].upper()+X[1]+X[2].upper()+X[3]+X[4].upper()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "_29PGmyXAk-P",
+        "outputId": "00390826-2fe1-43f0-81c9-ab570d76edb5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'InDiA'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#6.Write a python program where you have differentvariable which contains your\n",
+        "#name ,sex,age,phone no ,father name and mother name\n",
+        "name=input(\"enter your name:\")\n",
+        "age=input(\"enter your age:\")\n",
+        "phone_no=input(\"enter your phoneno:\")\n",
+        "fathers_name=input(\"enter your father name:\")\n",
+        "mothers_name=input(\"enter your mother name:\")\n",
+        "Bio_data=\"my name is {},my age is {} ,my phoneno is {},my fathersname is {},my mothername is {}\".format(name,age,phone_no,fathers_name,mothers_name)\n",
+        "print(Bio_data)"
+      ],
+      "metadata": {
+        "id": "rpBJq9l7Blav",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "629635d3-f909-4b32-dd98-a688774190bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your name:Natasha\n",
+            "enter your age:19\n",
+            "enter your phoneno:8923456739\n",
+            "enter your father name:Soham\n",
+            "enter your mother name:Rhea \n",
+            "my name is Natasha,my age is 19 ,my phoneno is 8923456739,my fathersname is Soham,my mothername is Rhea \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7.write a python program to count how many times\" @ \" occurred\n",
+        "X=\"@@jwbkxga@@vsjnd@hiwnxks@kabygsbsjycwj@@\"\n",
+        "X.count(\"@\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AQnBhRtyEyGN",
+        "outputId": "eff9647b-781f-4d56-bc92-d2542eabafb3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8.write a python program to get only name from the string\n",
+        "X=\"shri.@gmail.com,Prem.@gmail.com,chandu.@gmail.com\"\n",
+        "X.replace(\".@gmail.com\",\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "EXlNOIwYEzpo",
+        "outputId": "8c8f6cf5-93f5-4830-feea-6d2cacbd28bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'shri,Prem,chandu'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 35
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9.Given a string of odd length greater that 9, return a new string made of the middle three characters of a given string\n",
+        "X=\"Panipure\"\n",
+        "X[3:6]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "L7wLWi50ETD2",
+        "outputId": "493cac86-1300-4c37-bd13-97ea3bfd3c9e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'ipu'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10.Write a python program to insert a 2 string in the middle of 1 string\n",
+        "X=\"hello python\"\n",
+        "Y=X.replace(\" \",\"there\")\n",
+        "print(Y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Fdc20UfbE2ly",
+        "outputId": "4e86379d-84dd-4ef8-c7f0-f52ff8f8b490"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hellotherepython\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#11.Write a program to remove vowels from the entire alphabets\n",
+        "x=\"opportunitiesdonthappenyoucreatethem\"\n",
+        "x1=x.replace(\"a\",\"\")\n",
+        "x2=x1.replace(\"e\",\"\")\n",
+        "x3=x2.replace(\"i\",\"\")\n",
+        "x4=x3.replace(\"o\",\"\")\n",
+        "x5=x4.replace(\"u\",\"\")\n",
+        "print(x5)"
+      ],
+      "metadata": {
+        "id": "4BvESyjQIH3c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5de2d88e-f964-4835-c5b3-cc1a8a4ae371"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "pprtntsdnthppnycrtthm\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
